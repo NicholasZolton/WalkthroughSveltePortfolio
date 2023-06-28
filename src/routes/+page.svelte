@@ -1,4 +1,5 @@
 <script>
+	import { base } from "$app/paths";
 </script>
 
 <main>
@@ -21,7 +22,7 @@
 		</div>
 
 		<div id="project-link">
-			<a href="/sorting_project"><p>Wanna see a sorting project I made?</p></a>
+			<a href="{base}/sorting_project"><p>Wanna see a sorting project I made?</p></a>
 		</div>
 	</div>
 </main>
